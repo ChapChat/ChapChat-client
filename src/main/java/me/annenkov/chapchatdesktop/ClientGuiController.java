@@ -1,4 +1,4 @@
-package me.annenkov.chapchatclient;
+package me.annenkov.chapchatdesktop;
 
 public class ClientGuiController extends Client {
     private ClientGuiModel model = new ClientGuiModel();

@@ -1,4 +1,4 @@
-package me.annenkov.chapchatclient;
+package me.annenkov.chapchatdesktop;
 
 import javax.swing.*;
 import java.awt.*;

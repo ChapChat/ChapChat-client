@@ -1,4 +1,4 @@
-package me.annenkov.chapchatclient;
+package me.annenkov.chapchatdesktop;
 
 import java.util.Collections;
 import java.util.HashSet;

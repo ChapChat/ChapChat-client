@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.annenkov</groupId>
-    <artifactId>chapchatclient</artifactId>
+    <artifactId>chapchatdesktop</artifactId>
     <version>1.0</version>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -15,6 +16,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 
 </project>
