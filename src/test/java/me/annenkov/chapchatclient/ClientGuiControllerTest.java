@@ -1,4 +1,4 @@
-package me.annenkov.chapchat;
+package me.annenkov.chapchatclient;
 
 public class ClientGuiControllerTest {
     @org.junit.Test

@@ -1,4 +1,4 @@
-package me.annenkov.chapchat;
+package me.annenkov.chapchatclient;
 
 public enum MessageType {
     NAME_REQUEST,

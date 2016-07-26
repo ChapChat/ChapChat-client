@@ -1,4 +1,4 @@
-package me.annenkov.chapchat;
+package me.annenkov.chapchatclient;
 
 import java.io.IOException;
 import java.net.Socket;
@@ -113,7 +113,7 @@ public class Client {
                 else if (message.getType() == MessageType.NAME_ACCEPTED) {
                     notifyConnectionStatusChanged(true);
                     return;
-                } else throw new IOException("Unexpected me.annenkov.chapchat.MessageType");
+                } else throw new IOException("Unexpected me.annenkov.chapchatclient.MessageType");
             }
         }
 
@@ -123,7 +123,7 @@ public class Client {
                 if (message.getType() == MessageType.TEXT) processIncomingMessage(message.getData());
                 else if (message.getType() == MessageType.USER_ADDED) informAboutAddingNewUser(message.getData());
                 else if (message.getType() == MessageType.USER_REMOVED) informAboutDeletingNewUser(message.getData());
-                else throw new IOException("Unexpected me.annenkov.chapchat.MessageType");
+                else throw new IOException("Unexpected me.annenkov.chapchatclient.MessageType");
             }
         }
     }

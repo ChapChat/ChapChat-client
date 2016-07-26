@@ -1,4 +1,4 @@
-package me.annenkov.chapchat;
+package me.annenkov.chapchatclient;
 
 import java.io.BufferedReader;
 import java.io.IOException;

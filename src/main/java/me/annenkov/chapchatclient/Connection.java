@@ -1,4 +1,4 @@
-package me.annenkov.chapchat;
+package me.annenkov.chapchatclient;
 
 import java.io.Closeable;
 import java.io.IOException;
